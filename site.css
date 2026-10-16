@@ -150,7 +150,7 @@ tr.peak td:last-child::after{content:"PEAK";font:600 10px var(--mono);letter-spa
 .case .go2{font:600 13px var(--mono);margin-top:14px;display:inline-block}
 .case img,.case video{width:150px;border-radius:12px;position:relative;z-index:1;max-width:100%}
 @media (max-width:900px){.cases{grid-template-columns:1fr}}
-@media (max-width:480px){.case{grid-template-columns:1fr}.case img,.case video{width:120px}}
+@media (max-width:480px){.case{grid-template-columns:minmax(0,1fr) 92px;align-items:center}.case img,.case video{width:92px}}
 
 /* theory */
 .theories{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
@@ -289,3 +289,5 @@ main{overflow-x:clip}
   .iter{gap:10px}
   td,th{padding:9px 10px}
 }
+.reel:active .row{animation-play-state:paused}
+@media (max-width:600px){.case h3{font-size:34px}.case .lede{font-size:15px!important}}
