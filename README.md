@@ -13,3 +13,6 @@ Ask Claude: "add [ad name] to my portfolio wall" and it will pull the spend, mak
 
 ## Publish
 Repo `Daegan97/Daegan97.github.io` (or a project repo) with these files at the root; GitHub Pages serves `index.html`.
+
+## Cache
+After changing site.css or motion.js, bump the `?v=` number in the three HTML files so browsers load the new version.
