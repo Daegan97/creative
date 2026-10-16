@@ -7,8 +7,8 @@
 <link rel="stylesheet" href="site.css">
 </head><body>
 <header class="bar"><div class="wrap">
-  <div class="who"><b></b>Daegan · Creative Strategist</div>
-  <nav><a href="index.html#work">All work</a><a href="ms-paint.html">Next case</a><a class="go" href="index.html#contact">Get a sample brief</a></nav>
+  <a class="who" href="index.html"><b></b>Daegan · Creative Strategist</a>
+  <nav><a href="index.html#work">All work</a><a href="ms-paint.html">Next case</a><a class="go" href="index.html#contact">Get a free brief</a></nav>
 </div></header>
 
 <main class="wrap">
@@ -27,10 +27,10 @@
         <div><dt>Edit</dt><dd>Team video editor, cut from my brief</dd></div>
       </dl>
     </div>
-    <div class="media-frame"><video src="assets/slow-and-steady.mp4" poster="assets/slow-and-steady.jpg" controls muted loop playsinline preload="metadata" aria-label="Slow and Steady final ad"></video></div>
+    <div class="media-frame"><video src="assets/slow-and-steady.mp4" poster="assets/slow-and-steady.jpg" muted loop playsinline autoplay controls preload="auto" aria-label="Slow and Steady final ad"></video></div>
   </div>
 
-  <section>
+  <section class="rv">
     <div class="prose">
       <h2>The problem</h2>
       <p>Every competitor in the category runs the same ad: a creator screaming at a pull, a dollar figure in yellow, "INSANE!!!" in the caption. It works for a while, then the feed learns to scroll past it. We needed a short, cheap-to-edit ad that put the offer in the first second and still stopped the thumb.</p>
@@ -61,7 +61,7 @@
     </div>
   </section>
 
-  <section>
+  <section class="rv">
     <div class="prose"><h2>The cut</h2><p>The editor kept the pacing and set one word on screen per beat, so the captions slow down with the voice.</p></div>
     <div class="frames">
       <figure><img src="assets/sas-f5.jpg" alt="Pack screen with the word Code"><figcaption>0:00 · offer, second one</figcaption></figure>
@@ -73,7 +73,7 @@
     </div>
   </section>
 
-  <section>
+  <section class="rv">
     <div class="prose">
       <h2>Why it worked</h2>
       <ul>
@@ -87,7 +87,9 @@
     </div>
   </section>
 
-  <section class="next"><a class="back" href="index.html#work">← All work</a><a class="btn primary" href="ms-paint.html">Next: the MS Paint static →</a></section>
+  <section class="next rv"><a class="back" href="index.html#work">← All work</a><a class="btn primary" href="ms-paint.html">Next: the MS Paint static →</a></section>
 </main>
 <footer><div class="wrap">Daegan · Creative Strategist · daegantassey@gmail.com</div></footer>
+<div class="sticky"><a class="btn primary" href="index.html#contact">Get one brief free →</a></div>
+<script src="motion.js"></script>
 </body></html>
