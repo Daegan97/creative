@@ -281,7 +281,9 @@ main{overflow-x:clip}
   footer{font-size:12px}
   .cs-hero{padding-block:28px 48px}
   .cs-hero h1{font-size:clamp(50px,15vw,72px)}
-  .facts{grid-template-columns:1fr}
+  .facts{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .facts div{padding:12px}
+  .facts dd{font-size:14.5px;line-height:1.35}
   .media-frame{width:min(250px,70vw)}
   .media-frame.sq{width:100%}
   .prose h2{font-size:clamp(38px,11vw,52px)}
