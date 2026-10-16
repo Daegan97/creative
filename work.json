@@ -1,0 +1,14 @@
+{
+  "_howto": "Add or update an ad: copy an item, set spend (lifetime $, from Crew Live), poster (image in assets/), optional video (mp4 in assets/), and optional case (a case-study page). The wall shows items with spend >= minSpend, biggest first.",
+  "updated": "2026-10-16",
+  "minSpend": 500,
+  "items": [
+    { "title": "Slow and Steady", "format": "Video", "spend": 24280, "poster": "assets/slow-and-steady.jpg", "video": "assets/slow-and-steady.mp4", "vertical": true, "angle": "Pattern interrupt: a sleepy narrator in a feed of hype", "case": "slow-and-steady.html" },
+    { "title": "MS Paint", "format": "Static", "spend": 8378, "poster": "assets/ms-paint.jpg", "angle": "Lo-fi You | We T-chart", "case": "ms-paint.html" },
+    { "title": "Group chat", "format": "Static", "spend": 1179, "poster": "assets/op-imessage.jpg", "angle": "Native iMessage proof" },
+    { "title": "Packs hero", "format": "Static", "spend": 1155, "poster": "assets/op-packs-hero.jpg", "angle": "Launch announcement, slabs out of packs" },
+    { "title": "How it works", "format": "Video", "spend": 800, "poster": "assets/how-it-works.jpg", "vertical": true, "angle": "Explainer: straight to your door" },
+    { "title": "Notes app", "format": "Static", "spend": 575, "poster": "assets/op-notes-app.jpg", "angle": "Native Notes list" },
+    { "title": "Turbo mode", "format": "Video", "spend": 523, "poster": "assets/turbo-mode.jpg", "vertical": true, "angle": "Feature explainer" }
+  ]
+}
