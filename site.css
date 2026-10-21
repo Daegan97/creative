@@ -293,3 +293,27 @@ main{overflow-x:clip}
 }
 .reel:active .row{animation-play-state:paused}
 @media (max-width:600px){.case h3{font-size:34px}.case .lede{font-size:15px!important}}
+
+/* Systems & people (2026-10-21) */
+.org{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:28px;align-items:start;margin-top:8px}
+.tree{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 30px 60px -30px rgba(0,0,0,.8);min-width:0}
+.tree-head{display:flex;justify-content:space-between;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line);font:600 12px var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.tree-head span:last-child{color:var(--hl)}
+.tree pre{margin:0;padding:18px;font:400 13.5px/1.75 var(--mono);color:var(--fg);overflow-x:auto;white-space:pre}
+.tree b{color:var(--hl);font-weight:600} .tree i{color:var(--mut);font-style:normal}
+.org-copy h3{font-size:clamp(28px,3vw,40px);margin:0 0 10px} .org-copy h3+p{margin:0 0 26px;color:var(--mut)}
+.people{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:36px}
+.pp{padding:26px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+.pp .k{font:600 11px var(--mono);letter-spacing:.14em;color:var(--hl)}
+.pp h3{font-size:30px;margin:10px 0} .pp p{margin:0;color:var(--mut);font-size:16px}
+.tools{margin-top:36px;border:1px solid var(--line);border-radius:14px;background:var(--bg2);padding:24px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.tools-head{grid-column:1/-1;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:baseline;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.tl b{font:900 24px/1 var(--display);text-transform:uppercase;display:block;margin-bottom:8px} .tl p{margin:0;color:var(--mut);font-size:15px}
+/* Writing: spec copy page */
+.spec{background:#F3EEE4;color:#2B2622;border-radius:6px;padding:clamp(26px,4vw,52px);box-shadow:0 30px 60px -30px rgba(0,0,0,.85);font:400 15.5px/1.55 "EB Garamond",Georgia,serif;min-width:0}
+.spec p{margin:0 0 9px} .spec .sh1{font-size:clamp(26px,3vw,36px);line-height:1.1;margin:0}
+.spec .sh2{font-size:clamp(24px,2.7vw,32px);line-height:1.15;font-style:italic;color:#6B625A;margin:0 0 22px}
+.spec hr{width:56px;border:0;border-top:1.5px solid #B8312F;margin:18px 0}
+.spec-foot{border-top:1px solid #D8D0C2;margin-top:22px;padding-top:14px;text-align:right;font:500 12px/1 "EB Garamond",Georgia,serif;letter-spacing:.12em;color:#6B625A}
+@media (max-width:860px){.org{grid-template-columns:1fr}.people{grid-template-columns:1fr}.tools{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.tools{grid-template-columns:1fr}.tree pre{font-size:11.5px}}
